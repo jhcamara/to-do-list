@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+body {
+    background-color: #262929;
+    color: white;
+}
+h1 {
+    margin-top: 30px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+h2 {
+    font-family: 'ubuntu';
+    font-weight: 300;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border: 2px white;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* .closeBtn {
+    display: none;
+
+}
+
+.closeBtn:active {
+    display: inline-block;
+} */
