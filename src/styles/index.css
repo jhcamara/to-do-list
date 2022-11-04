@@ -15,6 +15,8 @@ body {
   background-color: #373b3d;
   font-family: 'ubuntu';
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -26,10 +28,15 @@ h2 {
   font-size: 18px;
 }
 
+h3 {
+  color: #de2672;
+  font-size: 14px;
+}
+
 button {
   background-color: #373b3d;
   border-color: white;
-  color: white;
+  color: rgb(229, 42, 114);
   border-radius: 50%;
   text-decoration: none;
   border: none;
@@ -38,13 +45,15 @@ button {
 .app {
     background: #373b3d;
     height: 100vh;
-    padding: 30px;
+    /* padding: 30px; */
+    /* display: flex;
+    justify-content: center; */
   }
   
   .todo-list {
     background: #373b3d;
     border-radius: 4px;
-    max-width: 400px;
+    max-width: 500px;
     padding: 5px;
   }
   
@@ -53,7 +62,7 @@ button {
     align-items: center;
     background: #373b3d;
     border-radius: 3px;
-    box-shadow: 1px 1px 1px rgba(245, 243, 243, 0.15);
+    box-shadow: 2px 2px 2px rgba(245, 243, 243, 0.15);
     display: flex;
     font-size: 12px;
     justify-content: space-between;
