@@ -11,32 +11,52 @@
 
 */
 
-
 body {
-    background-color: #262929;
-    color: white;
+  background-color: #373b3d;
+  font-family: 'ubuntu';
+  color: white;
 }
+
 h1 {
-    margin-top: 30px;
-    font-family: 'Ubuntu';
-    font-weight: 700;
+  margin-top: 25px;
 }
+
 h2 {
-    font-family: 'ubuntu';
-    font-weight: 300;
-    margin-top: 12px;
-    margin-bottom: 10px;
-    border: 2px white;
-    border-radius: 10px;
-    font-weight: 300;
-    font-size: 20px;
+  font-weight: 300;
+  font-size: 18px;
 }
 
-/* .closeBtn {
-    display: none;
-
+button {
+  background-color: #373b3d;
+  border-color: white;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  border: none;
 }
 
-.closeBtn:active {
-    display: inline-block;
-} */
+.app {
+    background: #373b3d;
+    height: 100vh;
+    padding: 30px;
+  }
+  
+  .todo-list {
+    background: #373b3d;
+    border-radius: 4px;
+    max-width: 400px;
+    padding: 5px;
+  }
+  
+  .todo {
+    color: white;
+    align-items: center;
+    background: #373b3d;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(245, 243, 243, 0.15);
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 3px 10px;
+  }

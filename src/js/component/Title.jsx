@@ -5,6 +5,7 @@ const TitleBar = () => {
     <>
     <h1>My procrastination list</h1>
     <h2>What should I leave for tomorrow?</h2>
+    <h2>You forgot 3 thiings</h2>
     </>
     )
 }

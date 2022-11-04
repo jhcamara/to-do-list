@@ -1,7 +1,7 @@
 import React from "react";
 import TitleBar from "./Title.jsx";
 // import Input from "./InputField.jsx";
-import App from "./Sandbox.jsx";
+import App from "./App.jsx";
 import taskCard from "./List.jsx";
 
 
